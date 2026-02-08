@@ -1,2 +1,2 @@
 # DIP-Lab-
-this repo contains all the work done in dip lab
+This repo contains all the work done in digital Image Processing Lab
