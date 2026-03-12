@@ -1,0 +1,215 @@
+मौलाना आज़ाद रा य ौ योगक सं थान, भोपाल – 462003 
+MAULANA AZAD NATIONAL INSTITUTE OF TECHNOLOGY, BHOPAL – 462003 
+
+
+डिजटल इमेज ोसेसंग योगशाला (सीएसई-325) ,Digital Image Processing Lab (CSE-325)  
+.सं (S. No.) योग (Practicals) 
+
+लैब-१ 
+(Lab-1) 
+Perform the following operations using library functions in PYTHON. 
+1. Read, Display and write any color image in various formats(ex- .jpg, .png, .tiff etc). 
+2. Find RED, GREEN and BLUE plane of the color image. 
+3. Create a color image from its RED, GREEN and BLUE planes. 
+4. Convert the color image into gray scale image. 
+5. Convert the color image into binary image. 
+6. Resize the image by one half and one quarter. 
+7. Rotate the image by 45, 90 and 180 degrees. 
+लैब-2 
+(Lab-2 ) 1. Perform sampling and quantization on a synthetic image and show the results at each stage. 
+2. Take an image of size 1024x1024 and find all the distances(De, D4 and D8) between pixels at 
+position (200,300) and (700,900). 
+3. Apply image Negation, Log transformation and Power law transformation with different values of 
+gamma (+ve, -ve, 0, 1) on a synthetic image. 
+4. Perform intensity level slicing and bit level slicing. 
+5. Apply contrast stretching on a synthetic image. 
+6. Apply Histogram equalization on a synthetic image. 
+ 
+लैब-३ 
+(Lab-3 ) 1. Apply Histogram equalization on a synthetic image. 
+2. Create black and white images (A) of size 1024x1024. Which consists of alternative horizontal 
+lines of black and white? Each line is of size 128. Create black and white images (B) of size 
+1024x1024. Which consists of alternative vertical lines of black and white? Each line is of size128. 
+Perform the following arithmetic operations on Image A and Image B. 
+a. Image addition of A and B 
+b. Subtraction of A and B 
+c. Multiplying Images of A and B 
+d. Averaging Images of A and B 
+3. Create a grayscale image of size 256x1024. Intensity of image should vary sinusoidal.  
+4. Create a white image of size 256x256, with black box of size 58x58 at center. 
+
+ 
+लैब-४  (Lab-4  
+) 1. Write and execute programs to perform logical operations on any two grayscale images. 
+a. AND operation between two images. 
+b. OR operation between two images. 
+c. Ex-OR operation between two images. 
+d. NOT operation 
+2. Take a gray scale image and add salt and pepper noise. Write programs for following operations 
+and observe their outputs 
+a. Mean filtering  
+b. Weighted Mean Filtering 
+c. Median filtering. Compare the output quality among Mean Filtering and median filtering. 
+3. Write programs to perform following sharpening operations on a gray scale image 
+a. Laplacian filter 
+b. Unsharp masking 
+c. High boost filtering 
+लैब-५  (Lab-5  
+) 1. Apply Fourier transform on a synthetic image and analyze the result. Also apply inverse Fourier 
+transform. 
+2. Develop programs to implement frequency domain smoothing/Low pass filters (Ideal, 
+Butterworth and Gaussian) and apply these filters on a gray scale image. 
+a. Compare/comment on the output of Ideal, Butterworth and Gaussian Low pass Filters having 
+the same radii (cutoff frequency) value. 
+b. Consider a suitable gray scale image and demonstrate the ringing effect on the output of 
+Ideal low pass frequency domain filter. 
+c. Compare the output of Butterworth low pass filters (order n=2) for different cut-off 
+frequencies (5, 15, 30, 90, 120). 
+d. Compare the output of Gaussian low pass filters for different cut-off frequencies (5, 15, 30, 
+90, and 120). 
+3. Develop programs to implement frequency domain sharpening/High pass filters (Ideal, 
+Butterworth and Gaussian) and apply these filters on a gray scale image. 
+a. Compare/comment on the output of Ideal, Butterworth and Gaussian High pass Filters 
+having the same radii (cutoff frequency) value. 
+b. Consider a suitable gray scale image and demonstrate the ringing effect on the output of 
+Ideal high pass frequency domain filter. 
+c. Compare the output of Butterworth high pass filters (order n=2) for different cut-off 
+frequencies (5, 15, 30, 90, 120). 
+d. Compare the output of Gaussian high pass filters for different cut-off frequencies (5, 15, 30, 
+90, and 120). 
+
+लैब-६ 
+(Lab-6) 1. Add following noise on a synthetic image and compare the noisy image quality after adding each 
+noise using PSNR and SSIM. 
+a. Gaussian Noise 
+b. Rayleigh Noise 
+c. Erlang(Gamma) Noise 
+d. Exponential Noise 
+e. Uniform Noise 
+f. Impulse(salt & pepper) Noise 
+2. Add periodic noise in an image and apply Butterworth band reject filters on this image and 
+compare the quality after adding noise and after applying the filter using PSNR and SSIM. 
+3. Take a gray scale image and add Gaussian noise. Write programs for following operations 
+a. Arithmetic Mean filter 
+b. Geometric Mean filter 
+c. Harmonic Mean filter 
+d. Contraharmonic Mean filter 
+4. Take a gray scale image and add salt and pepper noise. Write programs for following operations 
+a. Median filtering. 
+b. Max filtering 
+c. Min filtering 
+d. Midpoint Filtering 
+लैब-७ 
+(Lab-7) 1. Add periodic noise in an image and apply Butterworth bandpass filters on this image and extract 
+the noise. Show the noise obtained and its Probability Density Function. 
+2. Write programs to perform following filtering operations on a gray scale image corrupted by 
+impulse noise: 
+a. Ideal Notch reject filter 
+b. Gaussian Notch reject filter 
+c. Butterworth Notch reject filter 
+3. Develop program to add different types of noise in a gray scale image and write functions to 
+implement following filters for image restoration in presence of these noises 
+a. Inverse filter 
+b. Wiener filter 
+  
+लैब-८ 
+(Lab-8) 1. Develop program to implement point and line detection masks. Detect points and lines using 
+appropriate masks for a given gray scale image. The lines detected will be of the following 
+inclination:- 
+a. 0 degree 
+b. +45 degree 
+c. -45 degree 
+d. 90 degrees 
+2. Apply first and second derivative on a gray scale image and show the results. What the first and 
+second derivative refers in the image? 
+3. Develop programs for edge detection using different edge detection methods shown below: 
+a. Sobel filter 
+b. Prewitt filter 
+c. Marr-Hildreth edge detection algorithm 
+d. Canny algorithm 
+4. Given a set of coordinates as boundary pixels in an image. Write a program to implement Hough 
+Transform for joining the points using different lines. 
+ 
+लैब-९ 
+(Lab 9 ) 1. Develop programs to achieve image segmentation using 
+a. Basic Global thresholding  
+b. Optimal global thresholding or Otsuʼs thresholding 
+c. Basic Adaptive Thresholding 
+2. Write a program to perform Region Growing segmentation using a user-selected seed point and 
+an intensity similarity threshold. Display the final segmented region. 
+3. Develop a program for Region Splitting using quadtree decomposition and apply a homogeneity 
+test based on intensity variance. Display the final segmented image. 
+4. Perform morphological operations on a binary image using the following techniques: 
+a. Dilation 
+b. Erosion 
+c. Opening (Erosion followed by Dilation) 
+d. Closing (Dilation followed by Erosion) 
+Use different structuring elements and compare the results. 
+लैब- १० (LAB 
+10) 1. Implement the following morphological algorithms on a binary image: 
+a. Boundary Extraction 
+b. Region Filling 
+Use appropriate structuring elements and display the final outputs. 
+
+2. Write a program to Implement the following morphological operations on a binary image: 
+a. Connected Component Extraction 
+b. Hit-or-Miss Transform 
+c. Convex Hull 
+d. Thinning 
+e. Thickening 
+Display final outputs for each operation. 
+
+लैब-११ 
+(LAB 11) 1. Given two different images (smooth and textured). Calculate their entropy, compression ratio, 
+and data redundancy. 
+2. Perform Huffman coding on an 8x8 synthetic image and show: 
+a. Probability table 
+b. Huffman tree diagram 
+c. Encoded bitstream 
+3. Using a small 4x4 matrix of values, perform manual arithmetic coding step-by-step: 
+a. Compute cumulative ranges 
+b. Encode sequence 
+c. Decode to original sequence 
+4. Compress an image using both Huffman and Arithmetic coding, then analyze: 
+a. Bitrate 
+b. Entropy 
+c. Encoding time 
+d. Decoding time 
+e. Compression ratio 
+Prepare a comparative table and comment on which method is more efficient. 
+
+लैब- १२ (Lab
+12) 1. Write a program to implement LZW encoding and decoding for a grayscale image. Display the 
+following: 
+a. Initial dictionary 
+b. Final dictionary 
+c. Encoded output 
+d. Compression ratio 
+2. Implement Run-Length Coding for a binary image and a grayscale image. Compare compression 
+performance on both image types. 
+3. Generate all 8 bit-planes of a grayscale image. 
+ 
+a. Reconstruct the image using top 4 planes. 
+b. Measure reconstruction error (MSE, PSNR) 
+4. Implement Shannon-Fano coding for a grayscale image. Display: 
+a. Probability table 
+b. Code generation steps 
+c. Final encoded output 
+लैब- १३ (Lab 
+13) 1. Write a program to compute and display the 2D DFT and Inverse DFT of a grayscale image.Show: 
+a. Magnitude spectrum 
+b. Log-transformed spectrum 
+c. Phase spectrum 
+2. Implement 2D DCT and Inverse DCT for an image. Show the DCT coefficient matrix and 
+reconstructed image. 
+3. Apply wavelet decomposition using Haar wavelet transform and display: 
+a. Approximation (LL) 
+b. Detail coefficients (LH, HL, HH) 
+4. Use wavelet transform detail coefficients (LH, HL, HH) for edge detection. Compare results with: 
+a. Sobel 
+b. Canny 
+5. For a medical image, apply: 
+a. 2D DFT 
+b. 2D DCT 
+c. Wavelet transform 
+Identify which domain is best for noise removal and diagnostic clarity. 
